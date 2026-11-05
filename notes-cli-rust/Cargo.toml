@@ -1,0 +1,20 @@
+[package]
+name = "notes-cli-rust"
+description = "The notes command line, declared in Rust"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+
+[dependencies]
+alux-cli.workspace = true
+notes-cli-markdown.workspace = true
+alux-ext.workspace = true
+notes.workspace = true
+notes-search.workspace = true
+
+[lints]
+workspace = true
