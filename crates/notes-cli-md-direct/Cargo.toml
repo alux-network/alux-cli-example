@@ -1,0 +1,26 @@
+[package]
+name = "notes-cli-md-direct"
+description = "The notes command line stated in Markdown, run directly over notes kept in files"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+
+[[bin]]
+name = "notes-cli-md-direct"
+path = "src/main.rs"
+
+[dependencies]
+alux-cli.workspace = true
+notes-cli-describe.workspace = true
+alux-cli-direct.workspace = true
+notes-cli-markdown.workspace = true
+notes.workspace = true
+notes-cli-md.workspace = true
+notes-files.workspace = true
+
+[lints]
+workspace = true
