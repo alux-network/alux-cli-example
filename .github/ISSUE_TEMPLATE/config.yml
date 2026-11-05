@@ -1,0 +1,6 @@
+# This repository is an example; questions and reports belong to the ALUX Rust repository.
+blank_issues_enabled: false
+contact_links:
+  - name: ALUX Rust issues
+    url: https://github.com/alux-network/alux-rust/issues
+    about: This is an example. Ask questions and report problems with alux-cli in the ALUX Rust repository.
