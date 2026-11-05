@@ -1,5 +1,6 @@
 # ALUX CLI example
 
+[![CI](https://github.com/alux-network/alux-cli-example/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/alux-network/alux-cli-example/actions/workflows/rust.yml?query=branch%3Amaster)
 [![License: MIT-0](https://img.shields.io/badge/license-MIT--0-blue.svg)](LICENSE)
 [![Rust 1.97](https://img.shields.io/badge/rust-1.97-orange.svg)](rust-toolchain.toml)
 [![alux-cli](https://img.shields.io/crates/v/alux-cli.svg?label=alux-cli)](https://crates.io/crates/alux-cli)

@@ -9,6 +9,7 @@ version = "0.1.0"
 authors = ["ALUX Network <info@alux.network>"]
 edition = "2024"
 license = "MIT-0"
+repository = "https://github.com/alux-network/alux-cli-example"
 publish = false
 rust-version = "1.97"
 
