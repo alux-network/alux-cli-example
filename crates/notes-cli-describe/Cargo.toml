@@ -1,0 +1,16 @@
+[package]
+name = "notes-cli-describe"
+description = "Folds an ALUX CLI program into the spec it states: commands, operations, and argument sources"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+alux-cli.workspace = true
+alux-ext.workspace = true
+
+[lints]
+workspace = true
