@@ -1,0 +1,19 @@
+[package]
+name = "notes-files"
+description = "Notes kept one per line in a store file"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+
+[dependencies]
+notes.workspace = true
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+notes-conformance.workspace = true

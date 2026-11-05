@@ -1,0 +1,19 @@
+[package]
+name = "notes-conformance"
+description = "The laws of notes and their search, as executable checks over any notes interpreter"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+
+[dependencies]
+alux-ext.workspace = true
+anyhow.workspace = true
+notes.workspace = true
+notes-search.workspace = true
+
+[lints]
+workspace = true
