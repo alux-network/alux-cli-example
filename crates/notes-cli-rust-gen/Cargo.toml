@@ -1,0 +1,16 @@
+[package]
+name = "notes-cli-rust-gen"
+description = "Generates the Rust declaration of an ALUX CLI program from its spec"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+notes-cli-describe.workspace = true
+notes-cli-markdown.workspace = true
+
+[lints]
+workspace = true
