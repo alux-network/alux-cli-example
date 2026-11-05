@@ -1,0 +1,17 @@
+[package]
+name = "notes-search"
+description = "Searching notes by their words, pinned notes first"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+
+[dependencies]
+alux-ext.workspace = true
+notes.workspace = true
+
+[lints]
+workspace = true
